@@ -1,0 +1,6 @@
+x10 -> constant 60
+x9 -> max-val
+x8 -> pointer to data memory 
+x6 -> iterator
+x28 -> slt container
+x29 -> temp loaded data

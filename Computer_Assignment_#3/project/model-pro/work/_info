@@ -1,0 +1,342 @@
+m255
+K4
+z2
+!s11f MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/aidin/AIDIN/peregrine/term-4/computer architecture/cas/ca2/cpu
+vALU
+Z0 !s110 1716655624
+!i10b 1
+!s100 ib6oDMRfkDDBhAD63F`5f2
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I_;Q_T7[[N>2kR6_eKHK;V3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dC:/aidin/AIDIN/peregrine/term-4/computer architecture/cas/ca3/model-pro
+Z4 w1716655616
+Z5 8C:/aidin/AIDIN/peregrine/term-4/computer architecture/cas/ca3/datapath.v
+Z6 FC:/aidin/AIDIN/peregrine/term-4/computer architecture/cas/ca3/datapath.v
+!i122 110
+L0 94 26
+Z7 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z8 !s108 1716655623.000000
+Z9 !s107 C:/aidin/AIDIN/peregrine/term-4/computer architecture/cas/ca3/datapath.v|
+Z10 !s90 -reportprogress|300|-work|work|-stats=none|C:/aidin/AIDIN/peregrine/term-4/computer architecture/cas/ca3/datapath.v|
+!i113 1
+Z11 o-work work
+Z12 tCvgOpt 0
+n@a@l@u
+vALU_Control_unit
+Z13 !s110 1716655623
+!i10b 1
+!s100 C0dhm?BAHO7cmVg9a>`d32
+R1
+I5h_aWCejUnC3Th?Li[Wdk1
+R2
+R3
+Z14 w1716654335
+Z15 8C:/aidin/AIDIN/peregrine/term-4/computer architecture/cas/ca3/controller.v
+Z16 FC:/aidin/AIDIN/peregrine/term-4/computer architecture/cas/ca3/controller.v
+!i122 108
+L0 142 47
+R7
+r1
+!s85 0
+31
+R8
+Z17 !s107 C:/aidin/AIDIN/peregrine/term-4/computer architecture/cas/ca3/controller.v|
+Z18 !s90 -reportprogress|300|-work|work|-stats=none|C:/aidin/AIDIN/peregrine/term-4/computer architecture/cas/ca3/controller.v|
+!i113 1
+R11
+R12
+n@a@l@u_@control_unit
+vcontrol_unit
+R13
+!i10b 1
+!s100 fIYFb[gC<Y5=Pg]??]=Cj2
+R1
+I>M:@TC;6T@mjLjV1jlDR?2
+R2
+R3
+R14
+R15
+R16
+!i122 108
+L0 28 113
+R7
+r1
+!s85 0
+31
+R8
+R17
+R18
+!i113 1
+R11
+R12
+vcontroller
+R13
+!i10b 1
+!s100 DfhcL1`j`G=^1j:AzZ94U3
+R1
+I79MQ;VOm[RhPe2IdDSYYQ0
+R2
+R3
+R14
+R15
+R16
+!i122 108
+L0 3 24
+R7
+r1
+!s85 0
+31
+R8
+R17
+R18
+!i113 1
+R11
+R12
+vcpu
+R13
+!i10b 1
+!s100 BUBc3=F;b0<5>KT1z6FL[1
+R1
+IjIXPbnbngcR7DPHRD;Aza0
+R2
+R3
+w1716652879
+8C:/aidin/AIDIN/peregrine/term-4/computer architecture/cas/ca3/cpu.v
+FC:/aidin/AIDIN/peregrine/term-4/computer architecture/cas/ca3/cpu.v
+!i122 109
+L0 3 18
+R7
+r1
+!s85 0
+31
+R8
+!s107 C:/aidin/AIDIN/peregrine/term-4/computer architecture/cas/ca3/cpu.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/aidin/AIDIN/peregrine/term-4/computer architecture/cas/ca3/cpu.v|
+!i113 1
+R11
+R12
+vDataMemory
+R0
+!i10b 1
+!s100 nW`=EM<EOk[9O^4DGZ[hm1
+R1
+IoM12j=KDoWXBIKX6gXLAY1
+R2
+R3
+R4
+R5
+R6
+!i122 110
+L0 174 22
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+n@data@memory
+vdatapath
+R0
+!i10b 1
+!s100 Zd4R_JfZD:WhJXS^89T>a2
+R1
+I_BI`_9DR?fc7OBceDNnhO2
+R2
+R3
+R4
+R5
+R6
+!i122 110
+L0 3 67
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+vExtend_unit
+R0
+!i10b 1
+!s100 hCh9>GFKRhJcCH^ogiQJo3
+R1
+IZ_?4W1X_W@^VATc6zNBD_0
+R2
+R3
+R4
+R5
+R6
+!i122 110
+L0 121 18
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+n@extend_unit
+vMultiplexer_2_to_1
+R0
+!i10b 1
+!s100 SC=d8nnbZ<M4JCo7`6PCS3
+R1
+IiNSZ_HRm9XOJT?a_mVi:=2
+R2
+R3
+R4
+R5
+R6
+!i122 110
+L0 85 8
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+n@multiplexer_2_to_1
+vMultiplexer_4_to_1
+R0
+!i10b 1
+!s100 D_m=bj?R6e54B72TT;^?T1
+R1
+IBBAT4hDK]f=G`G:gFQSgK0
+R2
+R3
+R4
+R5
+R6
+!i122 110
+L0 74 10
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+n@multiplexer_4_to_1
+vPCwrite_control_unit
+R13
+!i10b 1
+!s100 maSC4dAe81mhUVedgBQRz0
+R1
+IjES2RG6YPk9NFk0HDLc7Z1
+R2
+R3
+R14
+R15
+R16
+!i122 108
+L0 190 34
+R7
+r1
+!s85 0
+31
+R8
+R17
+R18
+!i113 1
+R11
+R12
+n@p@cwrite_control_unit
+vRegister
+R0
+!i10b 1
+!s100 H6ii`Z24K5z5YzIo`BSIJ1
+R1
+I1LSV=@^mSL?Q^>m2gKI1B3
+R2
+R3
+R4
+R5
+R6
+!i122 110
+L0 140 14
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+n@register
+vRegisterFile
+R0
+!i10b 1
+!s100 ^U0YP8b[C]Ji6>N_I]g8]3
+R1
+IGbfHTf9Ih9L[M6HOmJRE20
+R2
+R3
+R4
+R5
+R6
+!i122 110
+L0 155 18
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+n@register@file
+vtb
+R0
+!i10b 1
+!s100 WAYDWEZ5iPdC[7dB8701Z0
+R1
+I^Z1LlTAg=OJCkc^;jb_AT0
+R2
+R3
+w1716649987
+8C:/aidin/AIDIN/peregrine/term-4/computer architecture/cas/ca3/test_bench.v
+FC:/aidin/AIDIN/peregrine/term-4/computer architecture/cas/ca3/test_bench.v
+!i122 111
+L0 3 12
+R7
+r1
+!s85 0
+31
+!s108 1716655624.000000
+!s107 C:/aidin/AIDIN/peregrine/term-4/computer architecture/cas/ca3/test_bench.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/aidin/AIDIN/peregrine/term-4/computer architecture/cas/ca3/test_bench.v|
+!i113 1
+R11
+R12

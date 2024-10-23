@@ -1,0 +1,32 @@
+{C:/aidin/AIDIN/peregrine/term-4/computer architecture/cas/ca4/ca4_real/cpu.v} {1 {vlog -work work -stats=none {C:/aidin/AIDIN/peregrine/term-4/computer architecture/cas/ca4/ca4_real/cpu.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module cpu
+
+Top level modules:
+	cpu
+
+} {} {}} {C:/aidin/AIDIN/peregrine/term-4/computer architecture/cas/ca4/ca4_real/test_bench.v} {1 {vlog -work work -stats=none {C:/aidin/AIDIN/peregrine/term-4/computer architecture/cas/ca4/ca4_real/test_bench.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tb
+
+Top level modules:
+	tb
+
+} {} {}} {C:/aidin/AIDIN/peregrine/term-4/computer architecture/cas/ca4/ca4_real/datapath.v} {1 {vlog -work work -stats=none {C:/aidin/AIDIN/peregrine/term-4/computer architecture/cas/ca4/ca4_real/datapath.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module datapath
+-- Compiling module Multiplexer_4_to_1
+-- Compiling module Multiplexer_2_to_1
+-- Compiling module ALU
+-- Compiling module Extend_unit
+-- Compiling module Register_
+-- Compiling module RegisterFile
+-- Compiling module DataMemory
+-- Compiling module InstructionMemory
+-- Compiling module Register
+
+Top level modules:
+	datapath
+	Register_
+
+} {} {}}

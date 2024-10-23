@@ -1,0 +1,6 @@
+x8 -> base address: 0
+x9 -> max-val
+x18 -> pointer to data memory 
+x6 -> iterator
+x28 -> slt container
+x29 -> temp loaded data

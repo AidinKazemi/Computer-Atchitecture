@@ -1,0 +1,685 @@
+vsim -gui work.tb
+# vsim -gui work.tb 
+# Start time: 14:44:12 on May 25,2024
+# Loading work.tb
+# Loading work.cpu
+# Loading work.datapath
+# Loading work.Register
+# Loading work.Multiplexer_2_to_1
+# Loading work.DataMemory
+# Loading work.RegisterFile
+# Loading work.Extend_unit
+# Loading work.Multiplexer_4_to_1
+# Loading work.ALU
+# Loading work.controller
+# Loading work.control_unit
+# Loading work.ALU_Control_unit
+# Loading work.PCwrite_control_unit
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'A_mux'.  Expected 6, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/cp/dp/A_mux File: C:/aidin/AIDIN/peregrine/term-4/computer architecture/cas/ca3/datapath.v Line: 48
+# ** Warning: (vsim-3722) C:/aidin/AIDIN/peregrine/term-4/computer architecture/cas/ca3/datapath.v(48): [TFMPC] - Missing connection for port 'input_3'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'B_mux'.  Expected 6, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/cp/dp/B_mux File: C:/aidin/AIDIN/peregrine/term-4/computer architecture/cas/ca3/datapath.v Line: 51
+# ** Warning: (vsim-3722) C:/aidin/AIDIN/peregrine/term-4/computer architecture/cas/ca3/datapath.v(51): [TFMPC] - Missing connection for port 'input_3'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'res_mux'.  Expected 6, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/cp/dp/res_mux File: C:/aidin/AIDIN/peregrine/term-4/computer architecture/cas/ca3/datapath.v Line: 62
+# ** Warning: (vsim-3722) C:/aidin/AIDIN/peregrine/term-4/computer architecture/cas/ca3/datapath.v(62): [TFMPC] - Missing connection for port 'input_3'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (1) for port 'IrWrite'. The port definition is at: C:/aidin/AIDIN/peregrine/term-4/computer architecture/cas/ca3/controller.v(29).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/cp/ct/CU File: C:/aidin/AIDIN/peregrine/term-4/computer architecture/cas/ca3/controller.v Line: 17
+# Compile of controller.v was successful with warnings.
+# Compile of cpu.v was successful.
+# Compile of datapath.v was successful.
+# Compile of test_bench.v was successful.
+# 4 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb
+# Loading work.cpu
+# Loading work.datapath
+# Loading work.Register
+# Loading work.Multiplexer_2_to_1
+# Loading work.DataMemory
+# Loading work.RegisterFile
+# Loading work.Extend_unit
+# Loading work.Multiplexer_4_to_1
+# Loading work.ALU
+# Loading work.controller
+# Loading work.control_unit
+# Loading work.ALU_Control_unit
+# Loading work.PCwrite_control_unit
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (1) for port 'IrWrite'. The port definition is at: C:/aidin/AIDIN/peregrine/term-4/computer architecture/cas/ca3/controller.v(29).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/cp/ct/CU File: C:/aidin/AIDIN/peregrine/term-4/computer architecture/cas/ca3/controller.v Line: 17
+# Compile of controller.v was successful with warnings.
+# Compile of cpu.v was successful.
+# Compile of datapath.v was successful.
+# Compile of test_bench.v was successful.
+# 4 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb
+# Loading work.cpu
+# Loading work.datapath
+# Loading work.Register
+# Loading work.Multiplexer_2_to_1
+# Loading work.DataMemory
+# Loading work.RegisterFile
+# Loading work.Extend_unit
+# Loading work.Multiplexer_4_to_1
+# Loading work.ALU
+# Loading work.controller
+# Loading work.control_unit
+# Loading work.ALU_Control_unit
+# Loading work.PCwrite_control_unit
+run -all
+# ** Warning: (vsim-7) Failed to open readmem file "the_memory.mem" in read mode.
+# No such file or directory. (errno = ENOENT)    : C:/aidin/AIDIN/peregrine/term-4/computer architecture/cas/ca3/datapath.v(184)
+#    Time: 0 ps  Iteration: 0  Instance: /tb/cp/dp/DM
+# ** Note: $stop    : C:/aidin/AIDIN/peregrine/term-4/computer architecture/cas/ca3/test_bench.v(12)
+#    Time: 2020 ps  Iteration: 0  Instance: /tb
+# Break in Module tb at C:/aidin/AIDIN/peregrine/term-4/computer architecture/cas/ca3/test_bench.v line 12
+# Compile of controller.v was successful with warnings.
+# Compile of cpu.v was successful.
+# Compile of datapath.v was successful.
+# Compile of test_bench.v was successful.
+# 4 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb
+# Loading work.cpu
+# Loading work.datapath
+# Loading work.Register
+# Loading work.Multiplexer_2_to_1
+# Loading work.DataMemory
+# Loading work.RegisterFile
+# Loading work.Extend_unit
+# Loading work.Multiplexer_4_to_1
+# Loading work.ALU
+# Loading work.controller
+# Loading work.control_unit
+# Loading work.ALU_Control_unit
+# Loading work.PCwrite_control_unit
+run -all
+# ** Note: $stop    : C:/aidin/AIDIN/peregrine/term-4/computer architecture/cas/ca3/test_bench.v(12)
+#    Time: 2020 ps  Iteration: 0  Instance: /tb
+# Break in Module tb at C:/aidin/AIDIN/peregrine/term-4/computer architecture/cas/ca3/test_bench.v line 12
+add wave -position insertpoint  \
+sim:/tb/rst \
+sim:/tb/clk
+restart
+run -all
+# ** Note: $stop    : C:/aidin/AIDIN/peregrine/term-4/computer architecture/cas/ca3/test_bench.v(12)
+#    Time: 2020 ps  Iteration: 0  Instance: /tb
+# Break in Module tb at C:/aidin/AIDIN/peregrine/term-4/computer architecture/cas/ca3/test_bench.v line 12
+add wave -position insertpoint  \
+sim:/tb/cp/dp/RF/register_space
+restart
+run -all
+# ** Note: $stop    : C:/aidin/AIDIN/peregrine/term-4/computer architecture/cas/ca3/test_bench.v(12)
+#    Time: 2020 ps  Iteration: 0  Instance: /tb
+# Break in Module tb at C:/aidin/AIDIN/peregrine/term-4/computer architecture/cas/ca3/test_bench.v line 12
+add wave -position insertpoint  \
+sim:/tb/cp/dp/pc_reg/output_value
+restart
+run -all
+# ** Note: $stop    : C:/aidin/AIDIN/peregrine/term-4/computer architecture/cas/ca3/test_bench.v(12)
+#    Time: 2020 ps  Iteration: 0  Instance: /tb
+# Break in Module tb at C:/aidin/AIDIN/peregrine/term-4/computer architecture/cas/ca3/test_bench.v line 12
+add wave -position insertpoint  \
+sim:/tb/cp/ct/CU/ps
+add wave -position insertpoint  \
+sim:/tb/cp/ct/CU/ns
+restart
+run -all
+# ** Note: $stop    : C:/aidin/AIDIN/peregrine/term-4/computer architecture/cas/ca3/test_bench.v(12)
+#    Time: 2020 ps  Iteration: 0  Instance: /tb
+# Break in Module tb at C:/aidin/AIDIN/peregrine/term-4/computer architecture/cas/ca3/test_bench.v line 12
+add wave -position insertpoint  \
+sim:/tb/cp/dp/pc_reg/load_val
+restart
+run -all
+# ** Note: $stop    : C:/aidin/AIDIN/peregrine/term-4/computer architecture/cas/ca3/test_bench.v(12)
+#    Time: 2020 ps  Iteration: 0  Instance: /tb
+# Break in Module tb at C:/aidin/AIDIN/peregrine/term-4/computer architecture/cas/ca3/test_bench.v line 12
+add wave -position insertpoint  \
+sim:/tb/cp/dp/pc_reg/write_en
+add wave -position insertpoint  \
+sim:/tb/cp/dp/PCwrite
+add wave -position insertpoint  \
+sim:/tb/cp/ct/PCwrite
+restart
+run -all
+# ** Note: $stop    : C:/aidin/AIDIN/peregrine/term-4/computer architecture/cas/ca3/test_bench.v(12)
+#    Time: 2020 ps  Iteration: 0  Instance: /tb
+# Break in Module tb at C:/aidin/AIDIN/peregrine/term-4/computer architecture/cas/ca3/test_bench.v line 12
+add wave -position insertpoint  \
+sim:/tb/cp/ct/PCU/PCwrite
+add wave -position insertpoint  \
+sim:/tb/cp/ct/PCU/pcUpdate
+restart
+run -all
+# ** Note: $stop    : C:/aidin/AIDIN/peregrine/term-4/computer architecture/cas/ca3/test_bench.v(12)
+#    Time: 2020 ps  Iteration: 0  Instance: /tb
+# Break in Module tb at C:/aidin/AIDIN/peregrine/term-4/computer architecture/cas/ca3/test_bench.v line 12
+# WARNING: No extended dataflow license exists
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Compile of controller.v was successful with warnings.
+# Compile of cpu.v was successful.
+# Compile of datapath.v was successful.
+# Compile of test_bench.v was successful.
+# 4 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb
+# Loading work.cpu
+# Loading work.datapath
+# Loading work.Register
+# Loading work.Multiplexer_2_to_1
+# Loading work.DataMemory
+# Loading work.RegisterFile
+# Loading work.Extend_unit
+# Loading work.Multiplexer_4_to_1
+# Loading work.ALU
+# Loading work.controller
+# Loading work.control_unit
+# Loading work.ALU_Control_unit
+# Loading work.PCwrite_control_unit
+run -all
+# ** Note: $stop    : C:/aidin/AIDIN/peregrine/term-4/computer architecture/cas/ca3/test_bench.v(12)
+#    Time: 2020 ps  Iteration: 0  Instance: /tb
+# Break in Module tb at C:/aidin/AIDIN/peregrine/term-4/computer architecture/cas/ca3/test_bench.v line 12
+add wave -position insertpoint  \
+sim:/tb/cp/dp/DM/register_space
+restart
+run -all
+# ** Note: $stop    : C:/aidin/AIDIN/peregrine/term-4/computer architecture/cas/ca3/test_bench.v(12)
+#    Time: 2020 ps  Iteration: 0  Instance: /tb
+# Break in Module tb at C:/aidin/AIDIN/peregrine/term-4/computer architecture/cas/ca3/test_bench.v line 12
+add wave -position insertpoint  \
+sim:/tb/cp/dp/IR/output_value
+restart
+run -all
+# ** Note: $stop    : C:/aidin/AIDIN/peregrine/term-4/computer architecture/cas/ca3/test_bench.v(12)
+#    Time: 2020 ps  Iteration: 0  Instance: /tb
+# Break in Module tb at C:/aidin/AIDIN/peregrine/term-4/computer architecture/cas/ca3/test_bench.v line 12
+add wave -position insertpoint sim:/tb/cp/dp/alu_out_reg/*
+add wave -position insertpoint  \
+sim:/tb/cp/dp/alu/output_value
+add wave -position insertpoint  \
+sim:/tb/cp/dp/alu_out_reg/output_value
+restart
+run -all
+# ** Note: $stop    : C:/aidin/AIDIN/peregrine/term-4/computer architecture/cas/ca3/test_bench.v(12)
+#    Time: 2020 ps  Iteration: 0  Instance: /tb
+# Break in Module tb at C:/aidin/AIDIN/peregrine/term-4/computer architecture/cas/ca3/test_bench.v line 12
+add wave -position insertpoint  \
+sim:/tb/cp/dp/alu/input_B
+add wave -position insertpoint  \
+sim:/tb/cp/dp/alu/input_A
+restart
+run -all
+# ** Note: $stop    : C:/aidin/AIDIN/peregrine/term-4/computer architecture/cas/ca3/test_bench.v(12)
+#    Time: 2020 ps  Iteration: 0  Instance: /tb
+# Break in Module tb at C:/aidin/AIDIN/peregrine/term-4/computer architecture/cas/ca3/test_bench.v line 12
+add wave -position insertpoint  \
+sim:/tb/cp/dp/B_mux/select_signal
+add wave -position insertpoint  \
+sim:/tb/cp/dp/A_mux/select_signal
+restart
+run -all
+# ** Note: $stop    : C:/aidin/AIDIN/peregrine/term-4/computer architecture/cas/ca3/test_bench.v(12)
+#    Time: 2020 ps  Iteration: 0  Instance: /tb
+# Break in Module tb at C:/aidin/AIDIN/peregrine/term-4/computer architecture/cas/ca3/test_bench.v line 12
+add wave -position insertpoint  \
+sim:/tb/cp/dp/A_mux/input_2 \
+sim:/tb/cp/dp/A_mux/input_1 \
+sim:/tb/cp/dp/A_mux/input_0
+add wave -position insertpoint  \
+sim:/tb/cp/dp/B_mux/input_2 \
+sim:/tb/cp/dp/B_mux/input_1 \
+sim:/tb/cp/dp/B_mux/input_0
+restart
+run -all
+# ** Note: $stop    : C:/aidin/AIDIN/peregrine/term-4/computer architecture/cas/ca3/test_bench.v(12)
+#    Time: 2020 ps  Iteration: 0  Instance: /tb
+# Break in Module tb at C:/aidin/AIDIN/peregrine/term-4/computer architecture/cas/ca3/test_bench.v line 12
+add wave -position insertpoint  \
+sim:/tb/cp/dp/RF/RD_2 \
+sim:/tb/cp/dp/RF/RD_1 \
+sim:/tb/cp/dp/RF/A_3 \
+sim:/tb/cp/dp/RF/A_2 \
+sim:/tb/cp/dp/RF/A_1
+restart
+run -all
+# ** Note: $stop    : C:/aidin/AIDIN/peregrine/term-4/computer architecture/cas/ca3/test_bench.v(12)
+#    Time: 2020 ps  Iteration: 0  Instance: /tb
+# Break in Module tb at C:/aidin/AIDIN/peregrine/term-4/computer architecture/cas/ca3/test_bench.v line 12
+restart
+run -all
+# ** Note: $stop    : C:/aidin/AIDIN/peregrine/term-4/computer architecture/cas/ca3/test_bench.v(12)
+#    Time: 2020 ps  Iteration: 0  Instance: /tb
+# Break in Module tb at C:/aidin/AIDIN/peregrine/term-4/computer architecture/cas/ca3/test_bench.v line 12
+# Compile of controller.v was successful with warnings.
+# Compile of cpu.v was successful.
+# Compile of datapath.v was successful.
+# Compile of test_bench.v was successful.
+# 4 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb
+# Loading work.cpu
+# Loading work.datapath
+# Loading work.Register
+# Loading work.Multiplexer_2_to_1
+# Loading work.DataMemory
+# Loading work.RegisterFile
+# Loading work.Extend_unit
+# Loading work.Multiplexer_4_to_1
+# Loading work.ALU
+# Loading work.controller
+# Loading work.control_unit
+# Loading work.ALU_Control_unit
+# Loading work.PCwrite_control_unit
+run -all
+# ** Note: $stop    : C:/aidin/AIDIN/peregrine/term-4/computer architecture/cas/ca3/test_bench.v(12)
+#    Time: 2020 ps  Iteration: 0  Instance: /tb
+# Break in Module tb at C:/aidin/AIDIN/peregrine/term-4/computer architecture/cas/ca3/test_bench.v line 12
+restart -f
+run -all
+# ** Note: $stop    : C:/aidin/AIDIN/peregrine/term-4/computer architecture/cas/ca3/test_bench.v(12)
+#    Time: 2020 ps  Iteration: 0  Instance: /tb
+# Break in Module tb at C:/aidin/AIDIN/peregrine/term-4/computer architecture/cas/ca3/test_bench.v line 12
+restart -f
+run -all
+# ** Note: $stop    : C:/aidin/AIDIN/peregrine/term-4/computer architecture/cas/ca3/test_bench.v(12)
+#    Time: 2020 ps  Iteration: 0  Instance: /tb
+# Break in Module tb at C:/aidin/AIDIN/peregrine/term-4/computer architecture/cas/ca3/test_bench.v line 12
+add wave -position insertpoint  \
+sim:/tb/cp/ct/CU/alusrcA
+# Compile of controller.v was successful with warnings.
+# Compile of cpu.v was successful.
+# Compile of datapath.v was successful.
+# Compile of test_bench.v was successful.
+# 4 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb
+# Loading work.cpu
+# Loading work.datapath
+# Loading work.Register
+# Loading work.Multiplexer_2_to_1
+# Loading work.DataMemory
+# Loading work.RegisterFile
+# Loading work.Extend_unit
+# Loading work.Multiplexer_4_to_1
+# Loading work.ALU
+# Loading work.controller
+# Loading work.control_unit
+# Loading work.ALU_Control_unit
+# Loading work.PCwrite_control_unit
+run -all
+# ** Note: $stop    : C:/aidin/AIDIN/peregrine/term-4/computer architecture/cas/ca3/test_bench.v(12)
+#    Time: 2020 ps  Iteration: 0  Instance: /tb
+# Break in Module tb at C:/aidin/AIDIN/peregrine/term-4/computer architecture/cas/ca3/test_bench.v line 12
+restart -f
+run -all
+# ** Note: $stop    : C:/aidin/AIDIN/peregrine/term-4/computer architecture/cas/ca3/test_bench.v(12)
+#    Time: 2020 ps  Iteration: 0  Instance: /tb
+# Break in Module tb at C:/aidin/AIDIN/peregrine/term-4/computer architecture/cas/ca3/test_bench.v line 12
+restart -f
+run -all
+# ** Note: $stop    : C:/aidin/AIDIN/peregrine/term-4/computer architecture/cas/ca3/test_bench.v(12)
+#    Time: 2020 ps  Iteration: 0  Instance: /tb
+# Break in Module tb at C:/aidin/AIDIN/peregrine/term-4/computer architecture/cas/ca3/test_bench.v line 12
+restart -f
+run -all
+# ** Note: $stop    : C:/aidin/AIDIN/peregrine/term-4/computer architecture/cas/ca3/test_bench.v(12)
+#    Time: 2020 ps  Iteration: 0  Instance: /tb
+# Break in Module tb at C:/aidin/AIDIN/peregrine/term-4/computer architecture/cas/ca3/test_bench.v line 12
+restart
+run -all
+# ** Note: $stop    : C:/aidin/AIDIN/peregrine/term-4/computer architecture/cas/ca3/test_bench.v(12)
+#    Time: 2020 ps  Iteration: 0  Instance: /tb
+# Break in Module tb at C:/aidin/AIDIN/peregrine/term-4/computer architecture/cas/ca3/test_bench.v line 12
+restart
+run
+restart
+run -all
+# ** Note: $stop    : C:/aidin/AIDIN/peregrine/term-4/computer architecture/cas/ca3/test_bench.v(12)
+#    Time: 2020 ps  Iteration: 0  Instance: /tb
+# Break in Module tb at C:/aidin/AIDIN/peregrine/term-4/computer architecture/cas/ca3/test_bench.v line 12
+add wave -position insertpoint  \
+sim:/tb/cp/dp/RF/RD_2 \
+sim:/tb/cp/dp/RF/RD_1 \
+sim:/tb/cp/dp/RF/A_3 \
+sim:/tb/cp/dp/RF/A_2 \
+sim:/tb/cp/dp/RF/A_1
+add wave -position insertpoint  \
+sim:/tb/cp/dp/alu/zero \
+sim:/tb/cp/dp/alu/input_B \
+sim:/tb/cp/dp/alu/input_A \
+sim:/tb/cp/dp/alu/alu_msb
+restart
+run -all
+# ** Note: $stop    : C:/aidin/AIDIN/peregrine/term-4/computer architecture/cas/ca3/test_bench.v(12)
+#    Time: 2020 ps  Iteration: 0  Instance: /tb
+# Break in Module tb at C:/aidin/AIDIN/peregrine/term-4/computer architecture/cas/ca3/test_bench.v line 12
+add wave -position insertpoint  \
+sim:/tb/cp/dp/alu/select_signal \
+sim:/tb/cp/dp/alu/output_value
+restart
+run -all
+# ** Note: $stop    : C:/aidin/AIDIN/peregrine/term-4/computer architecture/cas/ca3/test_bench.v(12)
+#    Time: 2020 ps  Iteration: 0  Instance: /tb
+# Break in Module tb at C:/aidin/AIDIN/peregrine/term-4/computer architecture/cas/ca3/test_bench.v line 12
+add wave -position insertpoint  \
+sim:/tb/cp/dp/im_ex/output_value
+restart
+run -all
+# ** Note: $stop    : C:/aidin/AIDIN/peregrine/term-4/computer architecture/cas/ca3/test_bench.v(12)
+#    Time: 2020 ps  Iteration: 0  Instance: /tb
+# Break in Module tb at C:/aidin/AIDIN/peregrine/term-4/computer architecture/cas/ca3/test_bench.v line 12
+# WARNING: No extended dataflow license exists
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+add wave -position insertpoint  \
+sim:/tb/cp/dp/im_ex/input_A
+add wave -position insertpoint  \
+sim:/tb/cp/dp/im_ex/select_signal
+restart
+run -all
+# ** Note: $stop    : C:/aidin/AIDIN/peregrine/term-4/computer architecture/cas/ca3/test_bench.v(12)
+#    Time: 2020 ps  Iteration: 0  Instance: /tb
+# Break in Module tb at C:/aidin/AIDIN/peregrine/term-4/computer architecture/cas/ca3/test_bench.v line 12
+# Compile of controller.v was successful with warnings.
+# Compile of cpu.v was successful.
+# Compile of datapath.v was successful.
+# Compile of test_bench.v was successful.
+# 4 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb
+# Loading work.cpu
+# Loading work.datapath
+# Loading work.Register
+# Loading work.Multiplexer_2_to_1
+# Loading work.DataMemory
+# Loading work.RegisterFile
+# Loading work.Extend_unit
+# Loading work.Multiplexer_4_to_1
+# Loading work.ALU
+# Loading work.controller
+# Loading work.control_unit
+# Loading work.ALU_Control_unit
+# Loading work.PCwrite_control_unit
+run -all
+# ** Note: $stop    : C:/aidin/AIDIN/peregrine/term-4/computer architecture/cas/ca3/test_bench.v(12)
+#    Time: 2020 ps  Iteration: 0  Instance: /tb
+# Break in Module tb at C:/aidin/AIDIN/peregrine/term-4/computer architecture/cas/ca3/test_bench.v line 12
+restart
+# Compile of controller.v was successful with warnings.
+# Compile of cpu.v was successful.
+# Compile of datapath.v was successful.
+# Compile of test_bench.v was successful.
+# 4 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb
+# Loading work.cpu
+# Loading work.datapath
+# Loading work.Register
+# Loading work.Multiplexer_2_to_1
+# Loading work.DataMemory
+# Loading work.RegisterFile
+# Loading work.Extend_unit
+# Loading work.Multiplexer_4_to_1
+# Loading work.ALU
+# Loading work.controller
+# Loading work.control_unit
+# Loading work.ALU_Control_unit
+# Loading work.PCwrite_control_unit
+run -all
+# ** Note: $stop    : C:/aidin/AIDIN/peregrine/term-4/computer architecture/cas/ca3/test_bench.v(12)
+#    Time: 10020 ps  Iteration: 0  Instance: /tb
+# Break in Module tb at C:/aidin/AIDIN/peregrine/term-4/computer architecture/cas/ca3/test_bench.v line 12
+# Compile of controller.v was successful with warnings.
+# Compile of cpu.v was successful.
+# Compile of datapath.v failed with 7 errors.
+# Compile of test_bench.v was successful.
+# 4 compiles, 1 failed with 7 errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb
+# Loading work.cpu
+# Loading work.Register
+# Loading work.Multiplexer_2_to_1
+# Loading work.DataMemory
+# Loading work.RegisterFile
+# Loading work.Extend_unit
+# Loading work.Multiplexer_4_to_1
+# Loading work.ALU
+# Loading work.controller
+# Loading work.control_unit
+# Loading work.ALU_Control_unit
+# Loading work.PCwrite_control_unit
+run -all
+# ** Note: $stop    : C:/aidin/AIDIN/peregrine/term-4/computer architecture/cas/ca3/test_bench.v(12)
+#    Time: 10020 ps  Iteration: 0  Instance: /tb
+# Break in Module tb at C:/aidin/AIDIN/peregrine/term-4/computer architecture/cas/ca3/test_bench.v line 12
+add wave -position insertpoint  \
+sim:/tb/cp/dp/pc_reg/load_val
+# Compile of controller.v was successful with warnings.
+# Compile of cpu.v was successful.
+# Compile of datapath.v failed with 7 errors.
+# Compile of test_bench.v was successful.
+# 4 compiles, 1 failed with 7 errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb
+# Loading work.cpu
+# Loading work.Register
+# Loading work.Multiplexer_2_to_1
+# Loading work.DataMemory
+# Loading work.RegisterFile
+# Loading work.Extend_unit
+# Loading work.Multiplexer_4_to_1
+# Loading work.ALU
+# Loading work.controller
+# Loading work.control_unit
+# Loading work.ALU_Control_unit
+# Loading work.PCwrite_control_unit
+run -all
+# ** Note: $stop    : C:/aidin/AIDIN/peregrine/term-4/computer architecture/cas/ca3/test_bench.v(12)
+#    Time: 10020 ps  Iteration: 0  Instance: /tb
+# Break in Module tb at C:/aidin/AIDIN/peregrine/term-4/computer architecture/cas/ca3/test_bench.v line 12
+add wave -position insertpoint  \
+sim:/tb/cp/dp/DM/RD \
+sim:/tb/cp/dp/DM/A
+restart
+run -all
+# ** Note: $stop    : C:/aidin/AIDIN/peregrine/term-4/computer architecture/cas/ca3/test_bench.v(12)
+#    Time: 10020 ps  Iteration: 0  Instance: /tb
+# Break in Module tb at C:/aidin/AIDIN/peregrine/term-4/computer architecture/cas/ca3/test_bench.v line 12
+add wave -position insertpoint  \
+sim:/tb/cp/dp/A_mux/select_signal
+add wave -position insertpoint  \
+sim:/tb/cp/dp/B_mux/select_signal
+# Compile of controller.v was successful with warnings.
+# Compile of cpu.v was successful.
+# Compile of datapath.v failed with 7 errors.
+# Compile of test_bench.v was successful.
+# 4 compiles, 1 failed with 7 errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb
+# Loading work.cpu
+# Loading work.Register
+# Loading work.Multiplexer_2_to_1
+# Loading work.DataMemory
+# Loading work.RegisterFile
+# Loading work.Extend_unit
+# Loading work.Multiplexer_4_to_1
+# Loading work.ALU
+# Loading work.controller
+# Loading work.control_unit
+# Loading work.ALU_Control_unit
+# Loading work.PCwrite_control_unit
+run -all
+# ** Note: $stop    : C:/aidin/AIDIN/peregrine/term-4/computer architecture/cas/ca3/test_bench.v(12)
+#    Time: 10020 ps  Iteration: 0  Instance: /tb
+# Break in Module tb at C:/aidin/AIDIN/peregrine/term-4/computer architecture/cas/ca3/test_bench.v line 12
+# Compile of controller.v was successful with warnings.
+# Compile of cpu.v was successful.
+# Compile of datapath.v failed with 7 errors.
+# Compile of test_bench.v was successful.
+# 4 compiles, 1 failed with 7 errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb
+# Loading work.cpu
+# Loading work.Register
+# Loading work.Multiplexer_2_to_1
+# Loading work.DataMemory
+# Loading work.RegisterFile
+# Loading work.Extend_unit
+# Loading work.Multiplexer_4_to_1
+# Loading work.ALU
+# Loading work.controller
+# Loading work.control_unit
+# Loading work.ALU_Control_unit
+# Loading work.PCwrite_control_unit
+run -all
+# ** Note: $stop    : C:/aidin/AIDIN/peregrine/term-4/computer architecture/cas/ca3/test_bench.v(12)
+#    Time: 10020 ps  Iteration: 0  Instance: /tb
+# Break in Module tb at C:/aidin/AIDIN/peregrine/term-4/computer architecture/cas/ca3/test_bench.v line 12
+add wave -position insertpoint  \
+sim:/tb/cp/dp/old_pc/output_value
+restart
+run -all
+# ** Note: $stop    : C:/aidin/AIDIN/peregrine/term-4/computer architecture/cas/ca3/test_bench.v(12)
+#    Time: 10020 ps  Iteration: 0  Instance: /tb
+# Break in Module tb at C:/aidin/AIDIN/peregrine/term-4/computer architecture/cas/ca3/test_bench.v line 12
+add wave -position insertpoint  \
+sim:/tb/cp/dp/old_pc/write_en
+restart -f
+run -all
+# ** Note: $stop    : C:/aidin/AIDIN/peregrine/term-4/computer architecture/cas/ca3/test_bench.v(12)
+#    Time: 10020 ps  Iteration: 0  Instance: /tb
+# Break in Module tb at C:/aidin/AIDIN/peregrine/term-4/computer architecture/cas/ca3/test_bench.v line 12
+# Compile of controller.v was successful with warnings.
+# Compile of cpu.v was successful.
+# Compile of datapath.v failed with 7 errors.
+# Compile of test_bench.v was successful.
+# 4 compiles, 1 failed with 7 errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb
+# Loading work.cpu
+# Loading work.Register
+# Loading work.Multiplexer_2_to_1
+# Loading work.DataMemory
+# Loading work.RegisterFile
+# Loading work.Extend_unit
+# Loading work.Multiplexer_4_to_1
+# Loading work.ALU
+# Loading work.controller
+# Loading work.control_unit
+# Loading work.ALU_Control_unit
+# Loading work.PCwrite_control_unit
+run -all
+# ** Note: $stop    : C:/aidin/AIDIN/peregrine/term-4/computer architecture/cas/ca3/test_bench.v(12)
+#    Time: 10020 ps  Iteration: 0  Instance: /tb
+# Break in Module tb at C:/aidin/AIDIN/peregrine/term-4/computer architecture/cas/ca3/test_bench.v line 12
+add wave -position insertpoint  \
+sim:/tb/cp/dp/IR/write_en
+restart
+run -all
+# ** Note: $stop    : C:/aidin/AIDIN/peregrine/term-4/computer architecture/cas/ca3/test_bench.v(12)
+#    Time: 10020 ps  Iteration: 0  Instance: /tb
+# Break in Module tb at C:/aidin/AIDIN/peregrine/term-4/computer architecture/cas/ca3/test_bench.v line 12
+add wave -position insertpoint  \
+sim:/tb/cp/dp/IrWrite
+# Compile of controller.v was successful with warnings.
+# Compile of cpu.v was successful.
+# Compile of datapath.v failed with 7 errors.
+# Compile of test_bench.v was successful.
+# 4 compiles, 1 failed with 7 errors.
+# Compile of controller.v was successful with warnings.
+# Compile of cpu.v was successful.
+# Compile of datapath.v was successful.
+# Compile of test_bench.v was successful.
+# 4 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb
+# Loading work.cpu
+# Loading work.datapath
+# Loading work.Register
+# Loading work.Multiplexer_2_to_1
+# Loading work.DataMemory
+# Loading work.RegisterFile
+# Loading work.Extend_unit
+# Loading work.Multiplexer_4_to_1
+# Loading work.ALU
+# Loading work.controller
+# Loading work.control_unit
+# Loading work.ALU_Control_unit
+# Loading work.PCwrite_control_unit
+run -all
+# ** Note: $stop    : C:/aidin/AIDIN/peregrine/term-4/computer architecture/cas/ca3/test_bench.v(12)
+#    Time: 10020 ps  Iteration: 0  Instance: /tb
+# Break in Module tb at C:/aidin/AIDIN/peregrine/term-4/computer architecture/cas/ca3/test_bench.v line 12
+add wave -position insertpoint  \
+{sim:/tb/cp/dp/RF/register_space[29]} \
+{sim:/tb/cp/dp/RF/register_space[28]} \
+{sim:/tb/cp/dp/RF/register_space[10]} \
+{sim:/tb/cp/dp/RF/register_space[9]} \
+{sim:/tb/cp/dp/RF/register_space[8]} \
+{sim:/tb/cp/dp/RF/register_space[6]}
+restart -f
+run -all
+# ** Note: $stop    : C:/aidin/AIDIN/peregrine/term-4/computer architecture/cas/ca3/test_bench.v(12)
+#    Time: 10020 ps  Iteration: 0  Instance: /tb
+# Break in Module tb at C:/aidin/AIDIN/peregrine/term-4/computer architecture/cas/ca3/test_bench.v line 12
+restart
+run -all
+# ** Note: $stop    : C:/aidin/AIDIN/peregrine/term-4/computer architecture/cas/ca3/test_bench.v(12)
+#    Time: 10020 ps  Iteration: 0  Instance: /tb
+# Break in Module tb at C:/aidin/AIDIN/peregrine/term-4/computer architecture/cas/ca3/test_bench.v line 12
+restart
+run -all
+# ** Note: $stop    : C:/aidin/AIDIN/peregrine/term-4/computer architecture/cas/ca3/test_bench.v(12)
+#    Time: 10020 ps  Iteration: 0  Instance: /tb
+# Break in Module tb at C:/aidin/AIDIN/peregrine/term-4/computer architecture/cas/ca3/test_bench.v line 12
+restart
+run -all
+# ** Note: $stop    : C:/aidin/AIDIN/peregrine/term-4/computer architecture/cas/ca3/test_bench.v(12)
+#    Time: 10020 ps  Iteration: 0  Instance: /tb
+# Break in Module tb at C:/aidin/AIDIN/peregrine/term-4/computer architecture/cas/ca3/test_bench.v line 12
+restart
+run -continue
+# ** Note: $stop    : C:/aidin/AIDIN/peregrine/term-4/computer architecture/cas/ca3/test_bench.v(12)
+#    Time: 10020 ps  Iteration: 0  Instance: /tb
+# Break in Module tb at C:/aidin/AIDIN/peregrine/term-4/computer architecture/cas/ca3/test_bench.v line 12
+run -all
+restart
+run -all
+# ** Note: $stop    : C:/aidin/AIDIN/peregrine/term-4/computer architecture/cas/ca3/test_bench.v(12)
+#    Time: 10020 ps  Iteration: 0  Instance: /tb
+# Break in Module tb at C:/aidin/AIDIN/peregrine/term-4/computer architecture/cas/ca3/test_bench.v line 12
+add wave -position insertpoint  \
+sim:/tb/cp/dp/RF/register_space
+add wave -position insertpoint  \
+sim:/tb/cp/dp/im_ex/output_value
+add wave -position insertpoint  \
+sim:/tb/cp/dp/pc_reg/load_val
+add wave -position insertpoint  \
+sim:/tb/cp/dp/im_ex/input_A
+restart
+run -all
+# ** Note: $stop    : C:/aidin/AIDIN/peregrine/term-4/computer architecture/cas/ca3/test_bench.v(12)
+#    Time: 10020 ps  Iteration: 0  Instance: /tb
+# Break in Module tb at C:/aidin/AIDIN/peregrine/term-4/computer architecture/cas/ca3/test_bench.v line 12
+# End time: 20:59:38 on May 25,2024, Elapsed time: 6:15:26
+# Errors: 0, Warnings: 1

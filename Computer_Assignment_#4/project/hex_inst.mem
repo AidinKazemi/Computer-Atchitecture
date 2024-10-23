@@ -1,0 +1,14 @@
+00000433
+00040483// lw s1,0(s0)
+00400313// addi t1,zero,4
+02832e13// slti t3,t1,40
+040e0463// beq t3,zero,END_LOOP
+00640933// add s2,s0,t1
+00090e83// lw t4,0(s2)
+01d4c663// blt s1,t4,ELSE
+00430313// addi t1,t1,4
+fe9ff06f// J LOOP
+00430313// addi t1,t1,4
+01d004b3// add s1,zero,t4
+fddff06f// J LOOP
+00000000
